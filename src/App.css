@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer-position {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.leavemargin {
+  margin-top: 1%;
+}
+
+.red-font {
+  color: red;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  10% {
+    opacity: 0;
+  }
+}
+
+.black-font {
+  color: black;
+}
+
+.green-font {
+  color: green;
+}
+
+.title-text {
+  font-weight: bold; 
+}

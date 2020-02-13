@@ -1,0 +1,10 @@
+[
+	{
+		"production": { "version": "demo-1.0.0-SNAPSHOT" },
+		"staging": { "version": "demo-2.0.0-SNAPSHOT" }
+	},
+	{
+		"production": { "version": "demo-1.0.0-SNAPSHOT" },
+		"staging": { "version": "demo-1.0.0-SNAPSHOT" }
+	}
+]
